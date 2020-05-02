@@ -165,7 +165,7 @@ a:active{
 
 }
 
-.nav .nav-item:hover .nav-link {
+.nav .nav-item:hover > .nav-link {
     background-color: var(--color-primary);
     width: 100%;
 }
