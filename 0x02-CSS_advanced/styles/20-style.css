@@ -114,6 +114,12 @@ ul.row {
     display:block;
 }
 
+row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .col-1-3 {
     width: 33.33%;
     float: left;
