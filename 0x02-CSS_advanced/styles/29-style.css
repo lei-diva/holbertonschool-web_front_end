@@ -154,10 +154,10 @@ a:active{
     color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link:before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     background-color: var(--color-white);
     width: 0;
