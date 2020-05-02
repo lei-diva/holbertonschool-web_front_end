@@ -114,7 +114,7 @@ ul.row {
     display:block;
 }
 
-row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
