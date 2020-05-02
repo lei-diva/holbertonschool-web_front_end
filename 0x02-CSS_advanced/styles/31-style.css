@@ -351,24 +351,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-work:hover .card-inner{
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
     text-align: center;
     margin: 0;
-    opacity: 0%;
+    opacity: 0;
     height: 100%;
     position: relative;
 }
 
-.card-title a, .card-work a{
+.card-work .card-title a{
     display:block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-title a:after, .card-work a:after{
+.card-work .card-title a::after{
     position: absolute;
     top: 0;
     right: 0;
@@ -379,4 +379,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-work:hover .card-title {
     opacity: 1;
+}
+
+.card-testimonial .card-quote{
+    position: relative;
+}
+
+.card-testimonial .card-quote::before {
+    content:"\201C";
+    position: absolute;
+    top: -4.5rem;
+    left: -1rem;
+    color: #efeded;
+    font-size: 10rem;
+    z-index: -1;
 }
