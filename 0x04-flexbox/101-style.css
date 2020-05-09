@@ -1,0 +1,59 @@
+:root{
+    --box1-color: rgb(83, 196, 87);
+    --box2-color: rgb(33, 121, 198);
+    --box3-color: rgb(35, 58, 79);
+    --box4-color: rgb(116, 69, 145);
+    --box5-color: rgb(213, 122, 24);
+    --text-color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.box {
+
+}
+
+
+.box1 {
+    background-color: var(--box1-color);
+    color: var(--text-color);
+    border: 20px var(--box1-color) solid;
+    font-size: 20px;
+    height: 1.25rem;
+}
+
+.box2 {
+    background-color: var(--box2-color);
+    color: var(--text-color);
+    border: 20px var(--box2-color) solid;
+    font-size: 40px;
+    height: 2.75rem;
+}
+
+.box3 {
+    background-color: var(--box3-color);
+    color: var(--text-color);
+    border: 20px var(--box3-color) solid;
+    font-size: 60px;
+}
+
+.box4 {
+    background-color: var(--box4-color);
+    color: var(--text-color);
+    border: 20px var(--box4-color) solid;
+    font-size: 40px;
+    height: 2.75rem;
+}
+
+.box5 {
+    background-color: var(--box5-color);
+    color: var(--text-color);
+    border: 20px var(--box5-color) solid;
+    font-size: 20px;
+    height: 1.25rem;
+}
